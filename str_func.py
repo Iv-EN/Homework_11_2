@@ -5,4 +5,5 @@ def translate_in_capitals(data: str) -> str:
 
 def titles_words(data: str) -> str:
     """Делает заглавными первые буквы каждого слова в строке."""
+    # тут пофиксили злой баг
     return data.title()
